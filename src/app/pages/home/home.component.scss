@@ -1,0 +1,10 @@
+.articles {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__main,
+  &__others {
+    width: 50%;
+  }
+}

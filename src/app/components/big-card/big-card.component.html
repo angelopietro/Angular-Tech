@@ -1,0 +1,10 @@
+  <div class="featured">
+    <figure>
+      <a [routerLink]="['detail', id]">
+        <img src="{{ photoCover }}" alt="">
+      </a>
+    </figure>
+    <span class="date">{{ cardDate }}</span>
+    <h2><a [routerLink]="['detail', id]"> {{ cardTitle }} </a></h2>
+    <p>{{ cardDescription }}</p>
+  </div>

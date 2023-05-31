@@ -1,0 +1,29 @@
+.cards__list {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .item {
+    display: flex;
+    figure {
+      padding-right: 10px;
+      img {
+        max-width: 240px;
+      }
+    }
+
+    h2 {
+      padding: 10px 0;
+    }
+
+    .date {
+      color: #ffffff66;
+      font-weight: 400;
+      font-size: 11px;
+    }
+  }
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #2d2d2d;
+}

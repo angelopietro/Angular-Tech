@@ -1,0 +1,17 @@
+.container {
+  margin: auto;
+  &__menu-title {
+    hr {
+      border: 0;
+      border-bottom: 1px solid #2d2d2d;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 100px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}

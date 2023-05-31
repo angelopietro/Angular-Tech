@@ -1,0 +1,10 @@
+<ul class="cards__list">
+  <li class="item">
+    <figure><a [routerLink]="['detail', id]"><img src="{{ photoCover }}" alt=""></a></figure>
+    <div>
+      <span class="date">{{ cardDate }}</span>
+      <h2><a [routerLink]="['detail', id]">{{ cardTitle }}</a></h2>
+    </div>
+  </li>
+</ul>
+<hr>

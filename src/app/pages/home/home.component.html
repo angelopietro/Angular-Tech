@@ -1,0 +1,23 @@
+<app-menu-title></app-menu-title>
+
+<div class="articles">
+  <div class="articles__main">
+    <app-big-card
+      id="1"
+      photoCover="https://picsum.photos/640/320"
+      cardDate="April 29, 2023"
+      cardTitle="Título"
+      cardDescription="Texto da noticia"
+    ></app-big-card>
+  </div>
+
+  <div class="articles__others">
+    <app-small-card
+      *ngFor="let article of listData"
+      [id] = "article.id"
+      [photoCover]="article.photo"
+      [cardDate]="article.date"
+      [cardTitle]="article.title"
+    ></app-small-card>
+  </div>
+</div>
